@@ -1,0 +1,12 @@
+<ion-searchbar [(ngModel)]="searchQuery" (ionInput)="onSearchChange($event)"></ion-searchbar>
+<ion-list>
+  <ion-item *ngFor="let pokemon of filteredPokemon">
+    {{pokemon.name}}
+  </ion-item>
+</ion-list>
+<div *ngIf="pokemonData">
+  <h2>{{pokemonData.name}}</h2>
+  <img [src]="pokemonData.sprites.front_default" alt="{{pokemonData.name}}">
+  <p>Height: {{pokemonData.height}}</p>
+  <p>Weight: {{pokemonData.weight}}</p>
+</div>
