@@ -1,0 +1,34 @@
+ion-content {
+    --background: #f4f4f4;
+  }
+  
+  ion-searchbar {
+    --background: #fff;
+    --border-radius: 8px;
+    margin: 16px;
+  }
+  
+  ion-item {
+    --background: #fff;
+    --border-radius: 8px;
+    margin: 8px 16px;
+    padding: 8px;
+  }
+  
+  h2 {
+    color: var(--ion-color-primary);
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    text-align: center;
+    font-size: var(--ion-font-size-lg);
+    color: var(--ion-color-secondary);
+  }
+  

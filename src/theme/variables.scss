@@ -1,2 +1,13 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+// Custom styles
+:root {
+    --ion-font-family: 'Roboto', sans-serif;
+    --ion-color-primary: #4CAF50; /* Color verde moderno */
+    --ion-color-secondary: #FFC107; /* Color ámbar */
+    --ion-color-tertiary: #03A9F4; /* Color azul claro */
+    --ion-font-size-base: 16px;
+    --ion-font-size-lg: 18px;
+    --ion-font-size-sm: 14px;
+  }
+  

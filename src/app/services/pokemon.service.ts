@@ -13,4 +13,9 @@ export class PokemonService {
   getPokemon(query: string): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}${query}`);
   }
+  getAllPokemon(): Observable<any> {
+    return this.http.get<any>('https://pokeapi.co/api/v2/pokemon?limit=1000');
+  }
+  
 }
+
